@@ -48,7 +48,7 @@ const [check,setcheck]=useState(false);
 
   return (
     <div className="App w-full h-screen  flex  justify-center">
-      <div class="bg-blue-200   h-1/2 w-1/2 mt-10 ">
+      <div class="bg-blue-200   h-1/2 w-1/2 mt-10  rounded">
        <div class="flex justify-center ">  <span class=" font-bold text-3xl">NUMBER_MANAGEMENT_SYSTEM</span></div>
         <div>
           <div class="flex justify-center text-2xl mt-1" >
@@ -69,7 +69,7 @@ const [check,setcheck]=useState(false);
 
           <ol>
             {result.map((obj)=>{
-              return <li class="ml-2 border border-red p-2 border-black ">{JSON.stringify(obj)}</li>
+              return <li class="m-2 border border-red p-2 border-black ">{JSON.stringify(obj)}</li>
             })}
           </ol>
          
